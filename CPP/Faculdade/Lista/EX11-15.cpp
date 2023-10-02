@@ -1,5 +1,5 @@
-/*
-EX 11
+
+
 #include <iostream>
 
 int main()
@@ -15,7 +15,7 @@ int main()
 
     return 0;
 }
-*/
+
 
 
 /*
