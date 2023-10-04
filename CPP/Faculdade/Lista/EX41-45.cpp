@@ -61,8 +61,8 @@
 //     float contaValorDesc = valor - (valor * descontoFixo);
 
 //     float parcelamento = contaValorDesc / 3;
-//     float caso_A_Vista = contaValorDesc - (contaValorDesc * 0.05);
-//     float casoParc = valor - (valor * 0.05);
+//     float caso_A_Vista = contaValorDesc * 0.05;
+//     float casoParc = valor * 0.05;
     
 //     printf(" valor = %f\n",contaValorDesc);
 //     printf(" parcela 3x = %f\n",parcelamento);
