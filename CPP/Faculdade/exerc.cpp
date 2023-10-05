@@ -1,13 +1,23 @@
 #include <iostream>
 #include <math.h>
+// ex 8 (lista2)
+main (){
 
-main(){
-    float a, b, c, soma;
+    int nota1, nota2, media;
 
-    printf("Digite tres valores: \n");
-    scanf("%f %f %f", &a, &b, &c);
+    printf ("Digite as duas notas: ");
+    scanf ("%d %d", &nota1, &nota2);
 
-    soma = a + b + c;
-    printf("a soma e: %f",soma);
+    media = (nota1 + nota2)/2;
+
+    if (media > 0 && media <= 10) {
+
+    printf ("MEDIA: %d \n ", media);
+}
+    else {
+	    printf (" Valor nao valido! \n ");
+}
+	return 0;
+	
 
 }
