@@ -1,3 +1,3 @@
 # Faculdade
 
-Some projects that I did at college
+Some projects that I did in college
