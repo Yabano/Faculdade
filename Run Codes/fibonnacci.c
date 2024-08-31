@@ -6,7 +6,7 @@ int main(){
     int num_loop;
     
     while (scanf("%d",&num_loop)!= EOF){
-        fibonacci(num_loop);
+        printf("%d",fibonacci(num_loop));
     }
     return 0;
 }
@@ -26,5 +26,6 @@ int fibonacci(int n_loop){
         }
         printf("%llu\n",conta);    
     }
+
     return 0;
 }
